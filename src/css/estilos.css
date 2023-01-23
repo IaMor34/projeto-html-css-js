@@ -8,10 +8,17 @@ body {
   padding: 30px;
   max-width: 1440px;
   margin: 0 auto;
+  background: radial-gradient(circle, #101c40 5%, rgba(0,0,0,1) 91%);
+  height: 60px;
+  align-items: center;
+  
 }
 
 .cabecalho .logo {
-  width: 65px;
+  width: 36px;
+  
+  
+
 }
 
 .cabecalho .menu{
@@ -23,14 +30,15 @@ body {
 .cabecalho nav li a {
   font-weight: bold;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 20px;
   padding: 10px 20px;
   border-radius: 50px;
   transition: 0.2s;
+  
 }
 
 .cabecalho nav li a:hover {
-  background-color: #d5011d;
+  background-color: #101c40 ;
 }
 
 .container {
@@ -40,6 +48,8 @@ body {
   align-items: center;
   height: calc(100vh - 132px);
   padding: 0 30px 30px;
+  padding-top: 4em;
+  padding-left: 2em;
 }
 
 .container .imagem-titulo {
@@ -51,10 +61,12 @@ body {
   width: 85%;
   font-size: 18px;
   margin: 30px 0;
+  padding-left: 1em;
+  
 }
 
 .container .botao-trailer {
-  background-color: #ff0021;
+  background-color:#101c40 ;
   color: #ffffff;
   padding: 15px;
   font-size: 18px;
@@ -63,10 +75,14 @@ body {
   border: none;
   text-transform: uppercase;
   transition: 0.5s all ease-in-out;
+  border-radius: 10px;
+  margin-left: 0,5em;
+ 
 }
 
 .container .botao-trailer:hover {
-  transform: scale(1.1)
+  transform: scale(1.1);
+ 
 }
 
 .fundo-video {
@@ -137,4 +153,8 @@ body {
 }
 
 
-
+.mario {
+  max-height: 110%;
+  gap: 10px;
+  height: 110%;
+}

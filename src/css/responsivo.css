@@ -43,7 +43,8 @@
     .cabecalho {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 10px;
+        gap: 1em;
+        height: 100%;
     }
 
 .container .image-titulo {
